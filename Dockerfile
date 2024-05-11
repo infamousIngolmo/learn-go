@@ -9,6 +9,7 @@ COPY learn-go /bin/goserver
 
 #Set env var PORT to 8080
 ENV PORT 8080
+EXPOSE $PORT
 
 
 CMD ["/bin/goserver"]
